@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es6",
+    "allowSyntheticDefaultImports": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "tools",
+    ".storybook",
+    "public",
+    "coverage"
+  ]
+}
