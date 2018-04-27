@@ -22,11 +22,7 @@ class SecondsSinceStart extends React.Component<{}, SecondsSinceStartState> {
     }
 
     render() {
-        return (
-            <div>
-                Seconds since reload: {this.state.secondsSinceReload}s
-            </div>
-        );
+        return `Seconds since reload: ${this.state.secondsSinceReload}s`;
     }
 }
 

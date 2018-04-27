@@ -1,19 +1,20 @@
 import * as React from 'react';
 import logo from './logo.svg';
-import './App.css';
 import SecondsSinceStart from './SecondsSinceStart';
 import {hot} from 'react-hot-loader';
+import * as styles from './app-styles';
 
 class App extends React.Component {
     render() {
         return (
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                    <h1 className="App-title">Welcome to React</h1>
+            <div className={styles.app}>
+                <header className={styles.header}>
+                    <img src={logo} className={styles.logo} alt="logo"/>
+                    <h1 className={styles.title}>Welcome to React</h1>
                 </header>
-                <p className="App-intro">
+                <p className={styles.intro}>
                     To get started, edit <code>src/App.js</code> and save to reload.
+                    <br/>
                     <SecondsSinceStart/>
                 </p>
             </div>
